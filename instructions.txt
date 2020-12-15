@@ -1,0 +1,10 @@
+Для запуска программы необходимы следующие действия:
+
+- Устанавка python версии 3.6.0 ( https://www.python.org/downloads/release/python-360/ )
+- Любая IDE (Изначально использовался PyCharm PE, но подойдёт любая)
+- Открываете файл setup.py 
+- Устанавливаете зависимости: pip install -r requirements.txt
+- В командной строке вводите python setup.py build
+- Альтернативный вариант: pip install PyInstaller и PyInstaller interface.py 
+Все команды производятся из рабочей директории, ссылки на страницы библиотек: 
+https://jenyay.net/Programming/Cxfreeze http://www.pyinstaller.org
